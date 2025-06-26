@@ -1,0 +1,31 @@
+class library:
+    def __init__(self,book_name,author,cost):
+        self.book_name=book_name
+        self.author=author
+        self.cost=cost
+        
+    def display(self):
+        return self.book_name
+    def writer(self):
+        return self.author
+    def GetCost(self):
+        return self.cost
+    
+
+obj1=library("english","himanshu",555)
+print("book name is: ",obj1.display())
+print("book's author:",obj1.writer())
+print("value of the book:",obj1.GetCost())
+
+obj2=library("hindi","manish",5325)
+print("book's name is:",obj2.display)
+print("book's author:",obj2.writer())
+print("value of the book:",obj2.GetCost())
+
+
+    
+        
+
+    
+    
+    
